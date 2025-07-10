@@ -73,11 +73,14 @@ nav {
 
 /*------------- Main Section Style ----------------*/
 main {
+    background: rgba(0, 112, 255, 0.1);
+}
+.main-container {
     max-width: 80vw;
     margin: 0 auto;
 }
 
-/*----- Acton Container --------*/
+/*----- Acton Container Style --------*/
 .action-container {
     margin: 6rem 0;
     display: flex;
@@ -104,7 +107,7 @@ main {
     line-height: 1.8rem;
 }
 
-/*----- Effective User Container ------*/
+/*----- Effective User Container Style ------*/
 .eff-user-container {
     background: rgba(254, 186, 23, 0.1);
     margin-bottom: 6rem;
@@ -135,4 +138,53 @@ main {
     font-size: 1.3rem;
     color: #8f8f8f;
     font-weight: 500;
+}
+
+/*----- Users Feedback Container Style ------*/
+.feedback-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #222831;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.feedback-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.feedback-card {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+}
+.feedback-text {
+    margin: 1.2rem 0;
+}
+.feedback-text h4 {
+    font-size: 1.5rem;
+    color: #222831;
+    padding-bottom: 0.5rem;
+}
+.feedback-text p {
+    font-weight: 500;
+    color: #222831;
+}
+.feedback-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.feedback-user img {
+    border-radius: 50%;
+}
+.feedback-user h6 {
+    font-size: 1.1rem;
+    color: #4d4d4d;
+    padding-bottom: 5px;
+}
+.feedback-user p {
+    color: #8f8f8f;
 }
