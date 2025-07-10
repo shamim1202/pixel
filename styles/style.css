@@ -1,6 +1,75 @@
+/* 
+    Color Plated : 
+    1. #0070ff
+    2. #fe5d26
+    3. #222831
+*/
 /*--------- Default Style ---------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+/*--------- Default Button --------*/
+.btn {
+    background: #fe5d26;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*------- Header Section Style -------*/
+
+header {
+    background: url(/Assets/Hero-bg.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.logo {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0070ff;
+}
+.logo span {
+    font-style: italic;
+    color: #fe5d26;
+}
+
+/*------- Banner Section Style ---------*/
+.banner {
+    max-width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #222831;
+    padding: 8rem 0 2rem;
+}
+.banner button {
+    margin-bottom: 8rem;
+}
+
+/*-------- Main Section Style --------*/
+main {
+    max-width: 80vw;
+}
+.action-content {
+    display: flex;
 }
