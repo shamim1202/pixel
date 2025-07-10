@@ -1,10 +1,11 @@
 /* 
     Color Plated : 
-    1. #0070ff
-    2. #fe5d26
-    3. #222831
+    1. #0070ff  --- Main
+    2. #fe5d26  --- Button
+    3. #222831  --- Heading
+    4. #8f8f8f  --- Text
 */
-/*--------- Default Style ---------*/
+/*---------------- Default Style -----------------*/
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,11 @@
     font-family: "Raleway", sans-serif;
     overflow-x: hidden;
 }
-/*--------- Default Button --------*/
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/*------------------- Default Button -----------------*/
 .btn {
     background: #fe5d26;
     color: #fff;
@@ -23,7 +28,7 @@
     font-weight: 600;
 }
 
-/*------- Header Section Style -------*/
+/*---------------- Header Section Style ---------------*/
 
 header {
     background: url(/Assets/Hero-bg.png);
@@ -50,7 +55,7 @@ nav {
     color: #fe5d26;
 }
 
-/*------- Banner Section Style ---------*/
+/*--------------- Banner Section Style -----------------*/
 .banner {
     max-width: 60vw;
     margin: 0 auto;
@@ -66,10 +71,68 @@ nav {
     margin-bottom: 8rem;
 }
 
-/*-------- Main Section Style --------*/
+/*------------- Main Section Style ----------------*/
 main {
     max-width: 80vw;
+    margin: 0 auto;
+}
+
+/*----- Acton Container --------*/
+.action-container {
+    margin: 6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12rem;
 }
 .action-content {
-    display: flex;
+    width: 50%;
+}
+.action-container img {
+    width: 50%;
+    border-radius: 50px;
+}
+.action-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #222831;
+}
+.action-details {
+    font-size: 1.3rem;
+    color: #8f8f8f;
+    padding: 1.2rem 0;
+    line-height: 1.8rem;
+}
+
+/*----- Effective User Container ------*/
+.eff-user-container {
+    background: rgba(254, 186, 23, 0.1);
+    margin-bottom: 6rem;
+    border-radius: 20px;
+}
+.eff-user-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222831;
+    text-align: center;
+    margin: 3rem 0;
+}
+.user-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 3rem;
+}
+.user-container h1 {
+    font-size: 5rem;
+    color: #0070ff;
+}
+.user-container p {
+    font-size: 1.3rem;
+    color: #8f8f8f;
+    font-weight: 500;
 }
