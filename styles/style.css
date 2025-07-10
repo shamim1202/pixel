@@ -214,3 +214,40 @@ main {
 .focus-container img {
     border-radius: 30px;
 }
+
+/*------- Get In Touch Section Style --------*/
+.touch-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 2rem 0 5rem;
+}
+.touch-title {
+    width: 50%;
+    font-size: 5rem;
+    color: #222831;
+}
+.form-container {
+    width: 50%;
+}
+.form-container input,
+textarea {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #8f8f8f;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+.form-container button {
+    width: 100%;
+}
+.label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #222831;
+}
