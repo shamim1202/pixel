@@ -213,6 +213,7 @@ main {
 }
 .focus-container img {
     border-radius: 30px;
+    max-width: 100%;
 }
 
 /*------- Get In Touch Section Style --------*/
