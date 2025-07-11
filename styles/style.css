@@ -37,7 +37,7 @@
 /*---------------- Header Section Style ---------------*/
 
 header {
-    background: url(/Assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
